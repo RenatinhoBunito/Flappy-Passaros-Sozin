@@ -11,5 +11,3 @@ image_speed = 0
 //variavel para a velocidade que ele vai ter no pulo
 subir = -5 
 
-//variavel para saber se o pulo esta disponicel
-pulodisp = true
