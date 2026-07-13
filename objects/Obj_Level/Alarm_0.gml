@@ -9,4 +9,6 @@ instance_create_layer(864, _altura, "Arvores", Obj_arvores)
 
 
 //alarme para ser criado de novo de forma aleatória
-alarm = 60 
+//variavel para ser mais organizado sabermos o "range" do tempo
+var _tempo = random_range(60 * 1, 60 * 4)
+alarm = _tempo 

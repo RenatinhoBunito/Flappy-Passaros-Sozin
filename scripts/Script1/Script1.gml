@@ -1,3 +1,7 @@
+//aleatoriezar a seed
+
+randomise() 
+
 #region Global
 
 //Variavel para definir se o jogador morreu
