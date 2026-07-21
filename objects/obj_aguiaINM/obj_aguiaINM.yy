@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_arvores",
+  "%Name":"obj_aguiaINM",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_arvores",
+  "name":"obj_aguiaINM",
   "overriddenProperties":[],
   "parent":{
     "name":"Obstáculos",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_arvores",
-    "path":"sprites/Spr_arvores/Spr_arvores.yy",
+    "name":"spr_aguia",
+    "path":"sprites/spr_aguia/spr_aguia.yy",
   },
   "spriteMaskId":null,
   "visible":true,

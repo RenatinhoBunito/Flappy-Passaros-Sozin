@@ -5,8 +5,10 @@ randomise()
 #region Global
 
 //Variavel para definir se o jogador morreu
-global.morte = false 
+global.morte = false
 
+//Pontos
+global.pontos = 0 
 
 
 #endregion
@@ -17,9 +19,10 @@ global.morte = false
 //função que servirá para oq acontece quando o personagem morre
 
 function morte() {
-
-	//A variavel morte será ativa 
-	global.morte = 1
+	
+	if (global.morte == true) exit 
+	
+	
 
 	//todos os obstáculos vão parar
 	with all {
@@ -36,6 +39,11 @@ function morte() {
 	layer_hspeed("bg_reflexArvores" , 0)
 	layer_hspeed("bg_reflex2", 0)
 	
+	//A variavel morte será ativa 
+	global.morte = 1
+	
+	//alarme para a sala resetar
+	alarm[0] = 120
 }	
 	
 #endregion
