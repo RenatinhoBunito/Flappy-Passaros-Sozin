@@ -10,6 +10,15 @@ global.morte = false
 //Pontos
 global.pontos = 0 
 
+//"Levels"
+global.level = [100, 200, 400, 600, 900, 1200, 1600, 2000, 2500]
+
+//Variavel para definir qual parte do array dos levels usar 
+global.escolhe_array = 1
+
+
+//pexe 
+global.pexe = 0 
 
 #endregion
 
