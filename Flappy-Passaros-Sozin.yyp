@@ -43,6 +43,7 @@
     {"id":{"name":"fnt_pontuacao","path":"fonts/fnt_pontuacao/fnt_pontuacao.yy",},},
     {"id":{"name":"obj_aguiaINM","path":"objects/obj_aguiaINM/obj_aguiaINM.yy",},},
     {"id":{"name":"Obj_arvores","path":"objects/Obj_arvores/Obj_arvores.yy",},},
+    {"id":{"name":"obj_explosao","path":"objects/obj_explosao/obj_explosao.yy",},},
     {"id":{"name":"Obj_Level","path":"objects/Obj_Level/Obj_Level.yy",},},
     {"id":{"name":"obj_pexe","path":"objects/obj_pexe/obj_pexe.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},

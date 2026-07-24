@@ -3,4 +3,8 @@
 alarm[0] = 60
 
 //aguias 
-alarm[1] = 90
+alarm[1] = 100
+
+
+//Pexes
+alarm[2] = 30

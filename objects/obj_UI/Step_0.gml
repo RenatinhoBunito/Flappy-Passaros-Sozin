@@ -34,6 +34,11 @@ if global.morte = true exit {
 		//fazer a velocidade dela aumentar conforme os leveis 
 		hspeed = -1.5 - (global.escolhe_array)
 	}
+	//azendo o peixe vir em nossa direção e de brinde fazer ele aumentar a velocidade
+	with (obj_pexe) {
+		//fazer a velocidade do pexe aumentar conforme os leveis 
+		hspeed = -2.5 - (global.escolhe_array)
+	}
 	//variavel para facilitar
 	var _bc_vel = - global.escolhe_array 
 	layer_hspeed("bg_arvores" , _bc_vel) 
